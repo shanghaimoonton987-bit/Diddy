@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial floppy flying game"
+git branch -M main
+git remote add origin https://github.com/USERNAME/floppy-flying.git
+git push -u origin main
