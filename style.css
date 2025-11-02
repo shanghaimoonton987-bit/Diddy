@@ -1,0 +1,23 @@
+:root{
+  --bg:#87CEFA;
+  --ui-bg: rgba(0,0,0,0.5);
+  --text: #fff;
+}
+
+*{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+
+html,body{height:100%;margin:0;background:linear-gradient(#d3f1ff,#87CEFA);display:flex;flex-direction:column;align-items:center;}
+#ui{z-index:10;text-align:center;margin-top:10px;color:var(--text);}
+#controls{display:flex;gap:10px;align-items:center;justify-content:center;margin:6px;}
+button{padding:8px 14px;border-radius:10px;border:none;background:#333;color:#fff;font-weight:600;cursor:pointer;}
+button:active{transform:translateY(1px);}
+#score{font-size:1.1rem;margin-left:8px;}
+#hint{font-size:0.9rem;color:#111a; margin-top:6px}
+
+canvas{display:block;margin:14px auto;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.25);background:linear-gradient(#88c,#ffd);touch-action:none;}
+
+#overlay{position:fixed;left:0;top:0;width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.4);z-index:50}
+.hidden{display:none}
+#gameOverBox{background:#fff;padding:20px 30px;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,0.3);text-align:center}
+#gameOverBox h2{margin:0 0 6px}
+#gameOverBox p{margin:0 0 12px;font-weight:700}
