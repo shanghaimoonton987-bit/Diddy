@@ -5,7 +5,7 @@ I have a johnson baby oil for u
 A simple **Flappy Bird–style web game** made with **HTML5, CSS, and JavaScript**.  
 Fly the bird through the pipes and try not to crash!  
 
-🎮 [Play it on GitHub Pages](https://yourusername.github.io/floppy-flying/)
+🎮 [Play it on GitHub Pages](https://shanghaimoonton987-bit.github.io/Diddy/)
 
 ---
 
